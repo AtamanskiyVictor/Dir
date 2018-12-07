@@ -19,7 +19,7 @@ $config = [
         'cache' => [
 //            'class' => 'yii\caching\FileCache',
             'class' => 'yii\caching\MemCache',
-            'useMemcached' => true,
+//            'useMemcached' => true,
             'servers' => [
                 [
                     'host' => 'localhost',
